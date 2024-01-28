@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3rem;
+}
+
+.block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+
+}
+
+p {
+    font-size: larger;
+    margin-top: .5rem;
+}
+
+.speaker {
+    font-size: small;
+    margin-bottom: 0%;
+
+}
+
+.Venkman {
+    font-weight: 700;
+}
+
+.exclaim {
+    font-style: oblique;
+    color: rgb(194, 157, 157);
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
