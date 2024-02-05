@@ -1,0 +1,81 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.intro {
+    color: black;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: .2em;
+}
+
+p {
+    margin: 0px;
+}
+
+.def {
+    font-weight: normal;
+    font-size: small;
+}
+
+.quo {
+    margin-bottom: 1em;
+    color: black;
+}
+
+.bold-quo {
+    font-weight: bold;
+}
+
+.italic-quo {
+    font-style: italic;
+}
+
+.stretch-quo {
+    letter-spacing: 0.3em;
+}
+
+.squish-quo {
+    letter-spacing: -0.06em;
+}
+
+.underline-quo {
+    text-decoration: underline;
+}
+
+.strikethrough-quo {
+    text-decoration: line-through;
+}
+
+.overline-quo {
+    text-decoration: overline;
+}
+
+.uppercase-quo {
+    text-transform: uppercase;
+}
+
+.lowercase-quo {
+    text-transform: lowercase;
+}
+
+.capitalize-quo {
+    text-transform: capitalize;
+}
