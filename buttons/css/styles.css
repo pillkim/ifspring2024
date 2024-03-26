@@ -1,0 +1,396 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46, 191, 236);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(46, 191, 236, 1) 0%, rgba(40, 165, 203, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(46, 191, 236, 1) 0%, rgba(40, 165, 203, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(46, 191, 236, 1) 0%, rgba(40, 165, 203, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2ebfec', endColorstr='#28a5cb', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #d81eb0;
+    border: 2px solid #d81eb0;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover {
+    background-color: #fff;
+    border: 2px solid #d81eb0;
+    color: #d81eb0;
+}
+
+a#btn_samsung {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px 40px 0 40px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+a#btn_samsung:hover {
+    background-color: #616161;
+    color: #ffffff;
+}
+
+a#btn_oldnavy {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 20px 10px 20px;
+    background-color: #061340;
+    border: 2px solid #061340;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_oldnavy:hover {
+    background-color: #fff;
+    color: #061340;
+}
+
+a#btn_ibm {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 100px;
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Workbench', sans-serif;
+    letter-spacing: 0.1cm;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_ibm:hover {
+    background-color: #fff;
+    color: #002bc5;
+    transition: all .25s;
+}
+
+a#btn_tesla {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px 40px 0 40px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .25s;
+    letter-spacing: 0.1cm;
+}
+
+a#btn_tesla:hover {
+    background-color: #616161;
+    color: #ffffff;
+    letter-spacing: 0.2cm;
+}
+
+a#btn_facebook {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px 40px 0 40px;
+    background-color: #469bef;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+a#btn_facebook:hover {
+    background-color: #0078ef;
+    color: #ffffff;
+}
+
+a#btn_nike {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px 40px 0 40px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+a#btn_nike:hover span {
+    display: none
+}
+
+a#btn_nike:hover::before {
+    color: rgb(228, 103, 0);
+    content: "Just Do It.";
+}
+
+a#btn_tonightshow {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 12px 40px 0 40px; */
+    background-color: #ffbe27;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+a#btn_tonightshow:hover {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 20px 0 20px;
+}
+
+a#btn_color {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 12px 40px 0 40px; */
+    /* background-color: #ffbe27; */
+    color: #000000;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+a#btn_color:hover :nth-child(1) {
+    /* background-color: #000000; */
+    color: #30ce42;
+    /* padding: 12px 20px 0 20px; */
+}
+
+a#btn_color:hover :nth-child(2) {
+    /* background-color: #000000; */
+    color: #051f91;
+    /* padding: 12px 20px 0 20px; */
+}
+
+a#btn_color:hover :nth-child(3) {
+    /* background-color: #000000; */
+    color: #881562;
+    /* padding: 12px 20px 0 20px; */
+}
+
+a#btn_army {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 12px 40px 0 40px; */
+    /* background-color: #000000; */
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all .25s;
+}
+
+a#btn_army:hover span {
+    display: none
+}
+
+a#btn_army:hover::before {
+    color: rgb(6, 126, 0);
+    content: "GO ARMY";
+}
