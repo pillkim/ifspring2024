@@ -1,0 +1,53 @@
+/* Reset the list styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e51414;
+}
+
+/* Display list items side by side */
+.nav-links li {
+    float: left;
+}
+
+/* Style the links */
+.nav-links li a {
+    display: block;
+    color: white;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav-links li a:hover {
+    background-color: #111;
+}
+
+.column_global {
+    margin: 0 15%;
+    margin-bottom: 2em;
+    max-width: 800px;
+    margin-inline: auto;
+    min-height: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin: 42px;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 25px 50px;
+    margin-inline: auto;
+}

@@ -1,0 +1,15 @@
+/* img {
+    width: 300px;
+} */
+
+.topgrid {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 50%;
+}
