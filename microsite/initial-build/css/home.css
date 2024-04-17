@@ -2,6 +2,35 @@
     width: 300px;
 } */
 
+h1 {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#topBanner {
+    margin-top: 56px;
+}
+
+#title {
+    margin-top: 84px;
+}
+
+.red1 {
+    color: rgb(181, 15, 15);
+}
+
+.red2 {
+    color: rgb(98, 2, 2);
+}
+
 .topgrid {
     max-width: 600px;
     margin-inline: auto;
@@ -12,4 +41,10 @@
 
 .item {
     width: 50%;
+}
+
+#title h1 {
+    padding: 0;
+    margin-top: -70px;
+    text-align: left;
 }

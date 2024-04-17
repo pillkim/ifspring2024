@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e51414;
+    background-color: #d68c11;
 }
 
 /* Display list items side by side */
@@ -43,6 +43,30 @@ body {
 h1 {
     text-align: center;
     margin: 42px;
+}
+
+a#btn_lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #d81eb0;
+    border: 2px solid #d81eb0;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover {
+    background-color: #fff;
+    border: 2px solid #d81eb0;
+    color: #d81eb0;
 }
 
 footer {

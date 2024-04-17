@@ -1,0 +1,29 @@
+.photoGrid_caption {
+    width: 100%;
+    margin: 0;
+}
+
+@media (min-width: 640px) {
+    .photoGrid_caption {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+.photoGrid_text {
+    margin: 0;
+}
+
+.photoGrid_photo {
+    width: 80%;
+    display: block;
+    padding: 8px;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .photoGrid_photo {
+        width: 40%;
+        margin: 0px 32px 32px 0px;
+    }
+}

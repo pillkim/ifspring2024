@@ -1,0 +1,83 @@
+#titleAdjust {
+    font-size: 64px;
+}
+
+@media (min-width: 640px) {
+    #titleAdjust {
+        font-size: 80px;
+    }
+}
+
+
+.foodElements {
+    width: 40%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .foodElements {
+        width: 30%;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+    }
+}
+
+.foodImage {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.textbox {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.foodText {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    text-align: center;
+}
+
+#lettuce {
+    width: 80%;
+    position: relative;
+    top: -12px;
+}
+
+#cheese {
+    width: 70%;
+    position: relative;
+    top: -6px;
+}
+
+#pickles {
+    width: 70%;
+    position: relative;
+    top: 20px;
+}
+
+#onions {
+    position: relative;
+    top: 24px;
+}
+
+#sauce {
+    width: 90%;
+    position: relative;
+    top: 18px;
+}
+
+#cheeseText {
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,145 @@
+/* Reset the list styles */
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d68c11;
+}
+
+.nav-links li {
+    float: right;
+}
+
+/* Display list items side by side */
+.nav-links li:first-child {
+    float: left;
+}
+
+/* Style the links */
+.nav-links li a {
+    display: block;
+    color: white;
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav-links li a:hover {
+    background-color: #111;
+    transition: all .5s;
+}
+
+.nav-links #homeLink:hover {
+    /* color: rgb(201, 2, 2); */
+    background-color: rgb(201, 2, 2);
+    transition: all .5s;
+}
+
+h1 {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+    text-align: left;
+    margin: 0;
+}
+
+h2 {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.column_global {
+    margin: 0 100px;
+    margin-bottom: 6em;
+    max-width: 800px;
+    margin-inline: auto;
+    min-height: 600px;
+}
+
+.column_global_padding {
+    padding: 0 50px;
+}
+
+.titleSection {
+    margin: 0;
+    margin-top: 6em;
+}
+
+.subTitle {
+    margin: 0;
+    margin-top: 12px;
+}
+
+.bodyContent {
+    margin: 0;
+    margin-top: 4em;
+}
+
+footer {
+    background-color: rgb(85, 5, 5);
+    /* background: rgb(85, 5, 5); */
+    /* background: linear-gradient(0deg, rgba(85, 5, 5, 1) 44%, rgba(177, 8, 8, 0.8575805322128851) 59%, rgba(221, 0, 0, 0.09007352941176472) 82%, rgba(255, 255, 255, 0) 100%); */
+    color: white;
+    padding: 25px 75px;
+    /* margin-inline: auto; */
+}
+
+@media (min-width: 640px) {
+    .basicGrid {
+        margin-inline: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.activeGrid {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div div {
+    display: inline-block;
+    width: 80%;
+    margin: 0 36px 0 0;
+}
+
+@media (min-width: 640px) {
+    footer div div {
+        display: inline-block;
+        width: 40%;
+        margin: 0 36px 0 0;
+    }
+}
+
+footer p {
+    font-size: small;
+    margin-bottom: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: yellow;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
