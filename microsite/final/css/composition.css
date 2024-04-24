@@ -27,6 +27,17 @@
     }
 }
 
+#titleAdjust {
+    margin: 0;
+    font-size: 42px;
+}
+
+@media (min-width: 420px) {
+    .titleSection h1 {
+        font-size: 48px;
+    }
+}
+
 .foodImage {
     display: block;
     width: 100%;

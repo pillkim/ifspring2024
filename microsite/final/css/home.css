@@ -21,10 +21,19 @@
 .topgrid {
     max-width: 600px;
     margin-inline: auto;
+    display: block;
+    text-align: center;
     margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
+
+@media (min-width: 420px) {
+    .topgrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 
 .item {
     width: 50%;
